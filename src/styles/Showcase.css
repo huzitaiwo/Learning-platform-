@@ -1,0 +1,41 @@
+.Showcase {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  height: 100vh;
+}
+.showcase___banner {
+  display: flex;
+  align-items: center;
+  background: var(--primary);
+  justify-content: center;
+  text-align: center;
+}
+.Showcase h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.content {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content img {
+  width: 300px;
+  margin: 50px 0;
+}
+.content__links {
+  display: flex;
+}
+.btn {
+  background: var(--primary);
+  margin: 0 10px;
+  padding: 15px 60px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
